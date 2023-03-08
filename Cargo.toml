@@ -1,0 +1,12 @@
+[package]
+name = "bevy_glicol"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.10.0"
+glicol = "0.12.8"
+glicol_synth = "0.12.8"
+bevy_egui = {git="https://github.com/mvlabat/bevy_egui", branch="bevy-0.10"}
